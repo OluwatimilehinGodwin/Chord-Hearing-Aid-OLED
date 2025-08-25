@@ -34,7 +34,7 @@ void setup() {
   // // ear icon
   // display.drawBitmap(47, 16, image_ear_icon_bits, 32, 24, 1);
 
-  // // Layer 2
+  // // Layer 2 text (Chord Hearing Aid text)
   // display.setTextColor(1);
   // display.setTextWrap(false);
   // display.setCursor(13, 46);
