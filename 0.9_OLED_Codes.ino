@@ -69,7 +69,41 @@ void setup() {
     display.setCursor(10, 35);
     display.print("-77.77 db");
 
+//****************** SCREEN 3*********************//
+    display.clearDisplay();
 
+    // Layer 1
+    display.setTextColor(1);
+    display.setTextWrap(false);
+    display.setCursor(5, 15);
+    display.print("Calibrating");
+
+      // 1st dot
+    display.setCursor(72, 15);
+    display.print(".");
+
+    // 2nd dot
+    display.setCursor(77, 15);
+    display.print(".");
+
+    // 3rd dot
+    display.setCursor(83, 15);
+    display.print(".");
+
+    // dividing line
+    display.drawLine(1, 29, 126, 29, 1);
+
+    // Layer 2
+    display.setCursor(1, 38);
+    display.print("Tap button repeatedly");
+
+    // Layer 3
+    display.setCursor(3, 49);
+    display.print("to calibrate output");
+
+
+}
+  
 
 
   // Show the result
