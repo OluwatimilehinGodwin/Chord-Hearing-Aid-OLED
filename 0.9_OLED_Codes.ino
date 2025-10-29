@@ -54,7 +54,7 @@ void setup() {
   // display.drawBitmap(118, 4, image__60_100__bits, 8, 9, 1);
 
   // bounding box for gain value
-  //display.drawRect(2, 21, 123, 40, 1);
+  //display.drawRect(2, 23, 123, 40, 1);
 
     // Gain
     display.setTextColor(1);
@@ -66,7 +66,7 @@ void setup() {
 
     // decibel value
     display.setFont();
-    display.setCursor(10, 32);
+    display.setCursor(10, 35);
     display.print("-77.77 db");
 
 
