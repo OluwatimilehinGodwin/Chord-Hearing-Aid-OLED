@@ -53,15 +53,22 @@ void setup() {
   // // 60-100%
   // display.drawBitmap(118, 4, image__60_100__bits, 8, 9, 1);
 
-  // // bounding box for gain value
-  // display.drawRect(48, 34, 71, 13, 1);
+  // bounding box for gain value
+  //display.drawRect(2, 21, 123, 40, 1);
 
-  // // Gain
-  // display.setTextColor(1);
-  // display.setTextWrap(false);
-  // display.setFont(&Petme8x8);
-  // display.setCursor(9, 45);
-  // display.print("GAIN: 6.25 db");
+    // Gain
+    display.setTextColor(1);
+    display.setTextSize(2);
+    display.setTextWrap(false);
+    display.setFont(&Petme8x8);
+    display.setCursor(6, 20);
+    display.print("GAIN");
+
+    // decibel value
+    display.setFont();
+    display.setCursor(10, 32);
+    display.print("-77.77 db");
+
 
 
 
